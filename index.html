@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <title>Block and Inline Elements Assignment</title>
 
+<style>
+.mycontainer {
+ width: 100%;
+ overflow: auto;
+}
+
+.mycontainer2 {
+ width: 100%;
+ overflow: auto;
+}
+
+.mycontainer2 div {
+ width: 33%;
+ float: left;
+}
+
+</style>
+
 </head>
 <body>
     <h1>Block and Inline HTML Assignment</h1>
@@ -17,13 +35,22 @@
         4. Observe how block and inline elements behave differently.
     -->
 
-    <div>
-        <div>Block Div 1</div>
-        <div>Block Div 2</div>
-        <div>Block Div 3</div>
-        <div>Block Div 4</div>
-        <div>Block Div 5</div>
+    <div class="mycontainer">
+
+        <div style="background-color: blue;>Block Div 1</div>
+
+        <div style="background-color: red;>Block Div 5</div>
+
     </div>
+
+   <div class="mycontainer2">
+
+        <div style="background-color: brown;>Block Div 2</div>
+
+        <div style="background-color: purple;>Block Div 3</div>
+
+        <div style="background-color: black;>Block Div 4</div>
+   </div>
 
     <h2>Inline Elements Example</h2>
     <p>
